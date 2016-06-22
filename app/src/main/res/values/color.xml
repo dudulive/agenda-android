@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_background">#00ace6</color>
+    <color name="list_background_pressed">#0A69F7</color>
+    <color name="list_divider">#303030</color>
+    <color name="list_item_title">#EDEDED</color>
+    <color name="toobar_background">#0099CC</color>
+
+</resources>

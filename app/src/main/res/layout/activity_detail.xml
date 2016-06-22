@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewFoto"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/desc_foto"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/alert_dark_frame" />
+
+        <ImageButton
+            android:id="@+id/imagebutton_edit"
+            android:layout_width="@dimen/fab_size"
+            android:layout_height="@dimen/fab_size"
+            android:layout_alignBottom="@+id/imageViewFoto"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-25dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/ripple"
+            android:contentDescription="@string/button_edit"
+            android:src="@mipmap/ic_create_white" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutFields"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/imageViewFoto" >
+
+            <TextView
+                android:id="@+id/textViewLabelNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/labelNome"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewLabelNome"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textViewLabelNome"
+                android:layout_marginTop="10dp"
+                android:text="@string/vazio"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLabelSobrenome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewNome"
+                android:layout_below="@+id/textViewNome"
+                android:layout_marginTop="10dp"
+                android:text="@string/labelSobrenome"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSobrenome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewLabelSobrenome"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textViewLabelSobrenome"
+                android:layout_marginTop="10dp"
+                android:text="@string/vazio"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLabelEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewSobrenome"
+                android:layout_below="@+id/textViewSobrenome"
+                android:layout_marginTop="10dp"
+                android:text="@string/labelEmail"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewLabelEmail"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textViewLabelEmail"
+                android:layout_marginTop="10dp"
+                android:text="@string/vazio"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLabelTelefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewEmail"
+                android:layout_below="@+id/textViewEmail"
+                android:layout_marginTop="10dp"
+                android:text="@string/labelTelefone"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewTelefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewLabelTelefone"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textViewLabelTelefone"
+                android:layout_marginTop="10dp"
+                android:text="@string/vazio"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLabelCep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewTelefone"
+                android:layout_below="@+id/textViewTelefone"
+                android:layout_marginTop="10dp"
+                android:text="@string/labelCep"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewLabelCep"
+                android:layout_below="@+id/textViewLabelCep"
+                android:layout_marginTop="10dp"
+                android:text="@string/vazio"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLabelCargo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewCep"
+                android:layout_below="@+id/textViewCep"
+                android:layout_marginTop="10dp"
+                android:text="@string/labelCargo"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCargo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewLabelCargo"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textViewLabelCargo"
+                android:layout_marginTop="10dp"
+                android:text="@string/vazio"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLabelDescricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewCargo"
+                android:layout_below="@+id/textViewCargo"
+                android:layout_marginTop="10dp"
+                android:text="@string/labelDescricao"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDescricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewLabelDescricao"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textViewLabelDescricao"
+                android:layout_marginTop="10dp"
+                android:text="@string/vazio"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Candidatos Treinaweb</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc_icon">Ícone da lista</string>
+    <string name="desc_img_avatar">Avatar</string>
+    <string name="desc_img_profile">Imagem Perfil</string>
+    <string name="drawer_open">Navegação aberta</string>
+    <string name="drawer_close">Navegação fechada</string>
+    <string name="vazio"> </string>
+    <string name="desc_foto">Foto</string>
+
+    <string name="button_add">Botão adicionar</string>
+    <string name="labelFoto">Foto:</string>
+    <string name="labelNome">Nome:</string>
+    <string name="labelSobrenome">Sobrenome:</string>
+    <string name="labelEmail">E-mail:</string>
+    <string name="labelTelefone">Telefone:</string>
+    <string name="labelCep">CEP:</string>
+    <string name="labelCargo">Cargo:</string>
+    <string name="labelDescricao">Descrição:</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_delete">Salvar</string>
+    <string name="button_edit">Botão editar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Deseja excluir?</string>
+    <string name="action_search">Pesquisar</string>
+</resources>
